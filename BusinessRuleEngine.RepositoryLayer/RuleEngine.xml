@@ -1,0 +1,46 @@
+﻿<RuleEngine>
+	<Payment>
+		<PaymentCategory name="PhysicalProduct" id ="1" />
+		<PaymentCategory name="Book" id ="2" />
+		<PaymentCategory name="Membership" id ="3" />
+		<PaymentCategory name="Upgrade" id ="4" />
+		<PaymentCategory name="Video" id ="5" />
+	</Payment>
+
+	<PaymentAction>
+		<Action id="1" name="Email"/>
+		<Action id="2" name="ActivateMembership"/>
+		<Action id="3" name="UpgradeMembership"/>
+		<Action id="4" name="CommissionPayment"/>
+		<Action id="5" name="PackingSlip"/>
+		<Action id="6" name="DuplicatePackingSlip"/>
+	    <Action id="7" name="Add"/>
+	</PaymentAction>
+	
+	<VideoDetail>
+		<VideoDescription name="LearningToSki" id="1"/>
+	    <VideoDescription name="FirstAid" id="2"/>
+	</VideoDetail>
+
+	<PaymentActionMatrix>
+		<PaymentCategory id="1">
+			<Action id="5" name="PackingSlip"/>
+			<Action id="4" name="CommissionPayment"/>
+		</PaymentCategory>
+		<PaymentCategory id="2">
+			<Action id="6" name="DuplicatePackingSlip"/>
+			<Action id="4" name="CommissionPayment"/>
+		</PaymentCategory>
+		<PaymentCategory id="3">
+			<Action id="1" name="Email"/>
+			<Action id="2" name="ActivateMembership"/>
+		</PaymentCategory>
+		<PaymentCategory id="4">
+			<Action id="1" name="Email"/>
+			<Action id="3" name="UpgradeMembership"/>
+		</PaymentCategory>
+	</PaymentActionMatrix>
+
+	
+	
+</RuleEngine>

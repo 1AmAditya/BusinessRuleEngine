@@ -1,0 +1,15 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/BusinessRuleEngin/bin/Debug/netcoreapp3.1
+/BusinessRuleEngin/obj
+/BusinessRuleEngin.BusinessLogic/obj
+/BusinessRuleEngin.BusinessLogic/bin/Debug/netcoreapp3.1
+/BusinessRuleEngine.Common/bin/Debug/netcoreapp3.1
+/BusinessRuleEngine.Common/obj
+/BusinessRuleEngine.RepositoryLayer/obj
+/BusinessRuleEngine.RepositoryLayer/bin/Debug/netcoreapp3.1
+/BusinessRuleEngine.UnitTest/obj
+/BusinessRuleEngine.UnitTest/bin/Debug/netcoreapp3.1
+/.vs/BusinessRuleEngin/v16/TestStore/0
