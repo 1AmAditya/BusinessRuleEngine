@@ -141,7 +141,7 @@ namespace BusinessRuleEngine.UnitTest
             List<string> result = actionBuilder.ParseAction(requestModel);
 
             //Assert
-            Assert.IsNull(result);
+            Assert.AreEqual(result[0], "Add");
         }
 
     }

@@ -14,13 +14,21 @@
 		<Action id="4" name="CommissionPayment"/>
 		<Action id="5" name="PackingSlip"/>
 		<Action id="6" name="DuplicatePackingSlip"/>
-	    <Action id="7" name="Add"/>
+		<Action id="7" name="Add"/>
 	</PaymentAction>
-	
+
 	<VideoDetail>
 		<VideoDescription name="LearningToSki" id="1"/>
-	    <VideoDescription name="FirstAid" id="2"/>
+		<VideoDescription name="FirstAid" id="2"/>
 	</VideoDetail>
+
+	<VideoActionMatrix>
+		<VideoDescription name="LearningToSki" id="1">
+			<Action id="7" name="Add">
+				<VideoDescription name="FirstAid" id="2"/>
+			</Action>>
+		</VideoDescription>
+	</VideoActionMatrix>
 
 	<PaymentActionMatrix>
 		<PaymentCategory id="1">
@@ -39,8 +47,11 @@
 			<Action id="1" name="Email"/>
 			<Action id="3" name="UpgradeMembership"/>
 		</PaymentCategory>
+	    <PaymentCategory id="5">
+			<Action id="7" name="Add"/>
+		</PaymentCategory>
 	</PaymentActionMatrix>
 
-	
-	
+
+
 </RuleEngine>

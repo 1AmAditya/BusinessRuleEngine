@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessRuleEngine.Reposito
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessRuleEngine.Common", "BusinessRuleEngine.Common\BusinessRuleEngine.Common.csproj", "{6370043D-2BD5-444C-B2B2-0D9641CABDF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessRuleEngine.UnitTest", "BusinessRuleEngine.UnitTest\BusinessRuleEngine.UnitTest.csproj", "{BC3A27C2-E2E2-4516-B5C9-CC645FA42958}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessRuleEngine.UnitTest", "BusinessRuleEngine.UnitTest\BusinessRuleEngine.UnitTest.csproj", "{BC3A27C2-E2E2-4516-B5C9-CC645FA42958}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
