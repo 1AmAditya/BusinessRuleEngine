@@ -11,7 +11,7 @@ namespace BusinessRuleEngine.UnitTest
     [TestClass]
     public class UnitTest1
     {
-        [TestMethod]
+        [TestMethod]///
         public void Payment_PhysicalProduct()
         {
             IRuleEngineParsing ruleEngineParsing = new RuleEngineParsing();
